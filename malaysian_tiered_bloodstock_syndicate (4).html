@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malaysian Tiered Bloodstock &amp; Dual-Market Syndicate | Institutional Investor Portal</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#0B0E11',
+            cardbg: '#13181F',
+            gold: {
+              400: '#E5C158',
+              500: '#D4AF37',
+              600: '#B5952F',
+            },
+            emerald: {
+              400: '#34d399',
+              500: '#10b981',
+              600: '#059669',
+              900: '#064e3b',
+            }
+          },
+          fontFamily: {
+            sans: ['"Inter"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0B0E11;
+      color: #f3f4f6;
+    }
+    .glass-card {
+      background: rgba(19, 24, 31, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.22);
+    }
+    .glass-nav {
+      background: rgba(11, 14, 17, 0.9);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.18);
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #F9E79F 0%, #D4AF37 50%, #9A7D0A 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-bg {
+      background-color: #0B0E11;
+      background-image: linear-gradient(to bottom, rgba(11, 14, 17, 0.78), rgba(11, 14, 17, 0.97)), url('https://images.unsplash.com/photo-1534351590666-13e3c96b5017?auto=format&fit=crop&w=2000&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-gold-500 selection:text-black">
+  <!-- STICKY HEADER / NAVIGATION -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center shadow-lg shadow-amber-500/20">
+          <i data-lucide="shield-check" class="w-6 h-6 text-obsidian"></i>
+        </div>
+        <div>
+          <span class="font-bold text-lg tracking-wider text-white uppercase block">Malaysian Bloodstock</span>
+          <span class="text-xs text-amber-400 font-medium tracking-widest block">Selangor &amp; Perak Partners</span>
+        </div>
+      </div>
+
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#advantage" class="hover:text-amber-400 transition-colors">95% Reliability</a>
+        <a href="#portfolio" class="hover:text-amber-400 transition-colors">10-Horse Portfolio</a>
+        <a href="#simulator" class="hover:text-amber-400 transition-colors">Live ROI Model</a>
+        <a href="#forecast" class="hover:text-amber-400 transition-colors">Option 1 vs. 2</a>
+        <a href="#governance" class="hover:text-amber-400 transition-colors">Term Sheet</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <a href="#portal" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider text-obsidian bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 transition-all shadow-lg shadow-amber-500/20">
+          Request Prospectus
+        </a>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-300 hover:text-white">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden glass-card border-t border-amber-500/20 px-4 pt-2 pb-6 space-y-3">
+      <a href="#advantage" class="block py-2 text-slate-300 hover:text-amber-400">95% Reliability</a>
+      <a href="#portfolio" class="block py-2 text-slate-300 hover:text-amber-400">10-Horse Portfolio</a>
+      <a href="#simulator" class="block py-2 text-slate-300 hover:text-amber-400">Live ROI Model</a>
+      <a href="#forecast" class="block py-2 text-slate-300 hover:text-amber-400">Option 1 vs. 2</a>
+      <a href="#governance" class="block py-2 text-slate-300 hover:text-amber-400">Term Sheet</a>
+      <a href="#portal" class="block text-center mt-3 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-obsidian bg-amber-400">
+        Request Prospectus
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-screen flex items-center justify-center hero-bg pt-24 pb-16 overflow-hidden">
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute bottom-10 right-10 w-[400px] h-[400px] bg-emerald-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-widest uppercase mb-6 shadow-inner">
+        <i data-lucide="award" class="w-4 h-4"></i> Realistic &#34;Eat&#34;-Led Yield • Institutional Bloodstock Equity
+      </div>
+
+      <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
+        The Malaysian Tiered Bloodstock &amp; <br class="hidden sm:inline"> <span class="gold-gradient-text">Dual-Market Syndicate</span>
+      </h1>
+
+      <p class="max-w-3xl mx-auto text-base sm:text-lg text-slate-300 mb-12 leading-relaxed">
+        Built on practical track realities: each horse wins 1–2 times per year while consistent monthly cash flow is powered by 13 disciplined &#34;EAT&#34; ticket positions, starter incentives, and 95% execution reliability via in-house employee jockeys.
+      </p>
+
+      <!-- Metric Highlight Badges -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto mb-12">
+        <div class="glass-card rounded-2xl p-6 border border-gold-500/30 text-center relative overflow-hidden group hover:border-gold-400 transition-all">
+          <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Total Syndicate Raise</span>
+          <span class="font-serif text-3xl font-bold text-gold-400">RM 1,143,000</span>
+          <span class="text-[11px] text-slate-300 mt-1 block font-medium">RM 114,300 per 10% Share Unit</span>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 border border-gold-500/30 text-center relative overflow-hidden group hover:border-gold-400 transition-all">
+          <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Execution Reliability</span>
+          <span class="font-serif text-3xl font-bold text-gold-400">95.0%</span>
+          <span class="text-[11px] text-emerald-400 mt-1 block font-medium">5% Failure • Employee Jockeys</span>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 border border-gold-500/30 text-center relative overflow-hidden group hover:border-gold-400 transition-all">
+          <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Option 1 Payback (Sweat)</span>
+          <span class="font-serif text-3xl font-bold text-gold-400">8.9 Months</span>
+          <span class="text-[11px] text-emerald-400 mt-1 block font-medium">RM 12,853/mo per 10% unit</span>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 border border-gold-500/30 text-center relative overflow-hidden group hover:border-gold-400 transition-all">
+          <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Option 2 Payback (Buy-In)</span>
+          <span class="font-serif text-3xl font-bold text-gold-400">8.3 Months</span>
+          <span class="text-[11px] text-emerald-400 mt-1 block font-medium">RM 13,701/mo per 10% unit</span>
+        </div>
+      </div>
+
+      <!-- Capitalization & Profit Split Bar -->
+      <div class="max-w-4xl mx-auto mb-12 glass-card rounded-2xl p-5 border border-gold-500/25 text-left">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-3 text-xs">
+          <div>
+            <span class="font-bold text-white uppercase tracking-wider">Realistic Gross Baseline:</span>
+            <span class="text-slate-400 ml-1">RM 211,125/mo (~1.25 fleet wins/mo + 13 &#34;EAT&#34; runs) • Full OpEx: RM 5,300/horse/mo</span>
+          </div>
+          <span class="font-semibold text-gold-400">75% Investor / 25% Trainer Split</span>
+        </div>
+        <div class="w-full h-3.5 rounded-full bg-slate-800 overflow-hidden flex p-0.5 border border-slate-700">
+          <div class="bg-gradient-to-r from-emerald-500 to-emerald-400 h-full rounded-l-full" style="width: 75%;" title="75% Investor Profit Share"></div>
+          <div class="bg-gradient-to-r from-gold-500 to-gold-400 h-full rounded-r-full" style="width: 25%;" title="25% Trainer Equity Profit Share"></div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3 text-xs">
+          <div class="flex items-center gap-2 text-slate-300">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 inline-block"></span>
+            <span><strong class="text-white">Option 1 (Sweat Equity):</strong> Trainer RM 0 cash, 25% OpEx discount (RM 3,975/horse) → ~8.9-mo payback</span>
+          </div>
+          <div class="flex items-center gap-2 text-slate-300 sm:justify-end">
+            <span class="w-2.5 h-2.5 rounded-full bg-gold-400 inline-block"></span>
+            <span><strong class="text-white">Option 2 (Commercial):</strong> Trainer pays RM 285,750 (25%), full RM 53k OpEx + 10% license fee → ~8.3-mo payback</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#simulator" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm tracking-wider uppercase text-obsidian bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 transition-all shadow-xl shadow-amber-500/20 flex items-center justify-center gap-2">
+          <span>Launch Interactive ROI Simulator</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+        <a href="#portal" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm tracking-wider uppercase text-white glass-card hover:border-amber-400 transition-all flex items-center justify-center gap-2">
+          <i data-lucide="file-text" class="w-4 h-4 text-amber-400"></i>
+          <span>Reserve Investor Share</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DUAL-MARKET & 5% RISK ADVANTAGE SECTION -->
+  <section id="advantage" class="py-24 border-t border-b border-gold-500/20 bg-[#0d1218]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-400 block mb-3">01 / Operational Alignment</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-white mb-4">Why Investors Fund 100% &amp; Trainer Earns <span class="gold-gradient-text">25% Sweat Equity</span></h2>
+        <p class="text-slate-300 text-base leading-relaxed">
+          The Trainer contributes RM 0 cash and earns a 25% equity &amp; profit share by delivering four scarce operational assets that power our realistic &#34;eat&#34;-led cash flow at a 5% failure rate.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <!-- Pillar 1 -->
+        <div class="glass-card rounded-2xl p-7 border border-gold-500/20 hover:border-gold-400 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-5 group-hover:bg-gold-500/20 transition-all">
+            <i data-lucide="award" class="w-6 h-6 text-gold-400"></i>
+          </div>
+          <span class="text-xs font-bold uppercase tracking-wider text-gold-400 block mb-1">Pillar 02 • Cost &amp; License Mechanics</span>
+          <h3 class="font-serif text-lg font-bold text-white mb-3">Full RM 5,300 OpEx &amp; 10% License</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Pre-discount OpEx is <strong class="text-white">RM 5,300/horse/mo</strong> (RM 53,000/mo). Option 1 applies a 25% discount (RM 3,975/horse); Option 2 charges full OpEx and pays the <strong class="text-white">10% license fee (RM 21,112.50/mo)</strong> directly to the Trainer at RM 0 personal cost.
+          </p>
+          <div class="p-2.5 rounded-xl bg-black/40 border border-slate-800 text-[11px] text-emerald-400 font-medium">
+            ✓ Transparent cost &amp; license alignment.
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="glass-card rounded-2xl p-7 border border-gold-500/20 hover:border-gold-400 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-5 group-hover:bg-gold-500/20 transition-all">
+            <i data-lucide="percent" class="w-6 h-6 text-gold-400"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-gold-400 block mb-1">Pillar 02 • Cost Subsidy</span>
+          <h3 class="font-serif text-lg font-bold text-white mb-3">25% Training Bill Discount</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Trainer provides a 25% discount on monthly training bills, fixing all-in stable upkeep at <strong class="text-white">RM 5,300/horse</strong> (RM 53,000/month across 10 horses).
+          </p>
+          <div class="p-2.5 rounded-xl bg-black/40 border border-slate-800 text-[11px] text-emerald-400 font-medium">
+            ✓ Protects profit even in slower months.
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="glass-card rounded-2xl p-7 border border-gold-500/20 hover:border-gold-400 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-5 group-hover:bg-gold-500/20 transition-all">
+            <i data-lucide="users" class="w-6 h-6 text-gold-400"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-gold-400 block mb-1">Pillar 03 • 95% Reliability</span>
+          <h3 class="font-serif text-lg font-bold text-white mb-3">In-House Employee Jockeys</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Jockeys are direct stable employees aligned with our market book. Tactical instructions for &#34;EAT&#34; runs or winning bids are executed with <strong class="text-white">95% reliability</strong> (5% failure).
+          </p>
+          <div class="p-2.5 rounded-xl bg-black/40 border border-slate-800 text-[11px] text-emerald-400 font-medium">
+            ✓ Eliminates external rider variance.
+          </div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="glass-card rounded-2xl p-7 border border-gold-500/20 hover:border-gold-400 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-5 group-hover:bg-gold-500/20 transition-all">
+            <i data-lucide="activity" class="w-6 h-6 text-gold-400"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-gold-400 block mb-1">Pillar 04 • Asset Care</span>
+          <h3 class="font-serif text-lg font-bold text-white mb-3">Bloodstock &amp; Soundness Care</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Direct selection of the 10-horse tiered string plus daily veterinary, shoeing, and nutritional oversight ensure consistent starts and starter incentives.
+          </p>
+          <div class="p-2.5 rounded-xl bg-black/40 border border-slate-800 text-[11px] text-gold-400 font-medium">
+            ✓ RM 800 starter incentives offset club fees.
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual Banner / Quote -->
+      <div class="relative rounded-3xl overflow-hidden border border-gold-500/30 bg-gradient-to-r from-emerald-950/60 to-obsidian p-8 sm:p-12">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1600&q=80')] opacity-15 bg-cover bg-center"></div>
+        <div class="relative z-10 max-w-3xl">
+          <span class="text-xs uppercase tracking-widest text-emerald-400 font-bold block mb-2">Realistic Track Economics</span>
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">&#34;Eat&#34; Positions Drive Monthly Cash Flow; Wins Are Pure Bonus</h3>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
+            In real Malaysian racing, expecting every horse to win monthly is unrealistic—each runner realistically wins <strong>1 to 2 times per year</strong> (~1.25 fleet wins/month across 10 horses, with occasional standouts). Therefore, our model anchors monthly cash flow on <strong>13 disciplined &#34;EAT&#34; positions</strong> (retaining RM 8,600 to RM 21,500 per run) plus <strong>RM 800 starter incentives</strong>, delivering <strong>RM 158,125/month</strong> in net profit.
+          </p>
+          <div class="flex flex-wrap items-center gap-4 text-xs font-semibold text-gold-400 uppercase tracking-wider">
+            <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> 13 Monthly &#34;EAT&#34; Runs (RM 154.8k)</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> ~1.25 Fleet Wins/Mo (1–2/Horse/Yr)</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> ~9.6-Month Investor Payback</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIERED BLOODSTOCK PORTFOLIO (10 HORSES) -->
+  <section id="portfolio" class="py-24 bg-[#0b0f19]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-400 block mb-3">02 / Asset Allocation</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-white mb-4">Tiered Bloodstock Portfolio <span class="gold-gradient-text">(10 Horses)</span></h2>
+        <p class="text-slate-300 text-base leading-relaxed">
+          Balanced across three structured tiers to deliver 16 monthly starts, 13 controlled &#34;EAT&#34; liquidity runs, and ~15 annual fleet wins.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Tier 1 -->
+        <div class="glass-card rounded-2xl p-8 border border-amber-500/20 hover:border-amber-400 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <span class="px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 text-xs font-bold uppercase tracking-wider border border-amber-500/30">Tier 1: Volume</span>
+              <span class="font-serif text-2xl font-bold text-white">5 Horses</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-white mb-2">Entry-Level Volume Runners</h3>
+            <p class="text-xs text-amber-400 font-semibold mb-4">Acquisition: RM 20,000 – RM 30,000 / unit</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-6">
+              High-frequency Class 4 and 5 competitors providing consistent monthly race starts, steady &#34;EAT&#34; absorption, and reliable starter incentives.
+            </p>
+            <ul class="space-y-2.5 text-xs text-slate-300 mb-8">
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 8 Monthly Runs across 5 horses</li>
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 7 Core &#34;EAT&#34; actions @ RM 8,600/run</li>
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 1–2 wins per horse annually</li>
+            </ul>
+          </div>
+          <div class="pt-6 border-t border-slate-800 flex justify-between items-center text-xs">
+            <span class="text-slate-400">Tier CapEx Subtotal:</span>
+            <span class="font-bold text-amber-400">RM 100k – RM 150k</span>
+          </div>
+        </div>
+
+        <!-- Tier 2 -->
+        <div class="glass-card rounded-2xl p-8 border border-amber-500/20 hover:border-amber-400 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <span class="px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 text-xs font-bold uppercase tracking-wider border border-amber-500/30">Tier 2: Mid-Tier</span>
+              <span class="font-serif text-2xl font-bold text-white">3 Horses</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-white mb-2">Competitive Contenders</h3>
+            <p class="text-xs text-amber-400 font-semibold mb-4">Acquisition: RM 100,000 / unit</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-6">
+              Strong Class 3 and 4 performers capable of winning on merit or absorbing mid-level public betting volume with higher ticket yields.
+            </p>
+            <ul class="space-y-2.5 text-xs text-slate-300 mb-8">
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 5 Monthly Runs across 3 horses</li>
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 4 Core &#34;EAT&#34; actions @ RM 12,900/run</li>
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 1–2 wins per horse annually</li>
+            </ul>
+          </div>
+          <div class="pt-6 border-t border-slate-800 flex justify-between items-center text-xs">
+            <span class="text-slate-400">Tier CapEx Subtotal:</span>
+            <span class="font-bold text-amber-400">RM 300,000</span>
+          </div>
+        </div>
+
+        <!-- Tier 3 -->
+        <div class="glass-card rounded-2xl p-8 border border-amber-500/20 hover:border-amber-400 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <span class="px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 text-xs font-bold uppercase tracking-wider border border-amber-500/30">Tier 3: Marquee</span>
+              <span class="font-serif text-2xl font-bold text-white">2 Horses</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-white mb-2">Feature Race Anchors</h3>
+            <p class="text-xs text-amber-400 font-semibold mb-4">Acquisition: RM 200,000 / unit</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-6">
+              Prime premier runners that draw heavy public ticket liabilities (&#34;weight of money&#34;), yielding high-value absorption and feature stakes.
+            </p>
+            <ul class="space-y-2.5 text-xs text-slate-300 mb-8">
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 3 Monthly Runs across 2 horses</li>
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> 2 Core &#34;EAT&#34; actions @ RM 21,500/run</li>
+              <li class="flex items-center gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-400"></i> Standout win upside potential</li>
+            </ul>
+          </div>
+          <div class="pt-6 border-t border-slate-800 flex justify-between items-center text-xs">
+            <span class="text-slate-400">Tier CapEx Subtotal:</span>
+            <span class="font-bold text-amber-400">RM 400,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE INTERACTIVE FINANCIAL & ROI SIMULATOR -->
+  <section id="simulator" class="py-24 bg-[#0d1218] border-t border-b border-gold-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-400 block mb-3">03 / Financial Modeling</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-white mb-4">Live Interactive <span class="gold-gradient-text">Investor ROI Simulator</span></h2>
+        <p class="text-slate-300 text-base leading-relaxed">
+          Select your investor share allocation (out of 10 investor-funded shares) and toggle between our Realistic Baseline (~1.25 wins/mo), Conservative Floor, Upside, or 50% Revenue Stress Test.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        <!-- Control Panel -->
+        <div class="lg:col-span-5 glass-card rounded-3xl p-8 border border-gold-500/30">
+          <h3 class="font-serif text-2xl font-bold text-white mb-6 flex items-center gap-3">
+            <i data-lucide="sliders" class="w-6 h-6 text-gold-400"></i>
+            <span>Deal Option &amp; Scenario Controls</span>
+          </h3>
+
+          <div class="mb-7">
+            <label for="deal-option-select" class="block text-sm font-semibold text-slate-300 mb-2">Syndicate Deal Structure:</label>
+            <select id="deal-option-select" class="w-full bg-black/60 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:border-gold-500 focus:outline-none mb-2">
+              <option value="option1" selected>Option 1: Sweat Equity (Trainer RM 0 Cash • 25% OpEx Discount)</option>
+              <option value="option2">Option 2: Commercial Buy-In (Trainer Pays RM 285.75k • Full OpEx + 10% License)</option>
+            </select>
+            <p id="deal-option-desc" class="text-xs text-slate-400">
+              Investors fund 100% (10 units @ RM 114,300); OpEx discounted 25% to RM 39,750/mo (RM 3,975/horse).
+            </p>
+          </div>
+
+          <div class="mb-7">
+            <div class="flex justify-between items-center mb-2">
+              <label for="share-slider" class="text-sm font-semibold text-slate-300">10% Share Units Subscribed:</label>
+              <span id="share-count-display" class="font-serif text-2xl font-bold text-gold-400">1.0 Unit</span>
+            </div>
+            <input type="range" id="share-slider" min="0.5" max="10" step="0.5" value="1.0" class="w-full accent-amber-500 bg-slate-800 rounded-lg h-2 cursor-pointer">
+            <div class="flex justify-between text-[11px] text-slate-500 mt-2">
+              <span>0.5 Unit</span>
+              <span>5.0 Units (50%)</span>
+              <span>10.0 Units (100%)</span>
+            </div>
+          </div>
+
+          <div class="mb-7">
+            <label for="scenario-select" class="block text-sm font-semibold text-slate-300 mb-2">Operating Cadence Scenario:</label>
+            <select id="scenario-select" class="w-full bg-black/60 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:border-gold-500 focus:outline-none">
+              <option value="realistic" selected>Realistic Baseline (~1.25 Wins/Mo • RM 211,125 Gross)</option>
+              <option value="conservative">Conservative Floor (1.0 Win/Mo • RM 201,000 Gross)</option>
+              <option value="upside">High-Performance Upside (3.0 Wins/Mo • RM 270,000 Gross)</option>
+              <option value="stress">Severe 50% Revenue Cut Stress Test (RM 105,563 Gross)</option>
+            </select>
+          </div>
+
+          <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+              <label for="reliability-slider" class="text-sm font-semibold text-slate-300">Execution Reliability Rate:</label>
+              <span id="reliability-display" class="font-serif text-xl font-bold text-emerald-400">95% (5% Failure)</span>
+            </div>
+            <input type="range" id="reliability-slider" min="85" max="100" step="1" value="95" class="w-full accent-emerald-500 bg-slate-800 rounded-lg h-2 cursor-pointer">
+            <div class="flex justify-between text-[11px] text-slate-500 mt-2">
+              <span>85% Stress</span>
+              <span>95% Employee Jockey Baseline</span>
+              <span>100% Optimal</span>
+            </div>
+          </div>
+
+          <div class="space-y-3.5 pt-6 border-t border-slate-800 text-sm">
+            <div class="flex justify-between">
+              <span class="text-slate-400">Your Profit &amp; Equity Interest:</span>
+              <span id="equity-display" class="font-bold text-white">10.0%</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Trainer Total Monthly Cash Inflow:</span>
+              <span id="out-trainer-total" class="font-bold text-gold-400">RM 82,594 / mo</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Stable OpEx Applied:</span>
+              <span id="out-opex-label" class="font-bold text-emerald-400">RM 39,750/mo (RM 3,975/horse)</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">12-Month Cumulative Payout:</span>
+              <span id="out-12mo-total" class="font-bold text-emerald-400">RM 154,238</span>
+            </div>
+          </div>
+
+          <div class="mb-7">
+            <label for="scenario-select" class="block text-sm font-semibold text-slate-300 mb-2">Operating Cadence Scenario:</label>
+            <select id="scenario-select" class="w-full bg-black/60 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:border-gold-500 focus:outline-none">
+              <option value="realistic" selected>Realistic Baseline (~1.25 Wins/Mo • RM 211.1k Gross)</option>
+              <option value="conservative">Conservative Floor (1.0 Win/Mo • RM 201.0k Gross)</option>
+              <option value="upside">High-Performance Upside (3.0 Wins/Mo • RM 270.0k Gross)</option>
+              <option value="stress">Severe 50% Revenue Cut Stress Test (RM 135.0k Gross)</option>
+            </select>
+          </div>
+
+          <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+              <label for="reliability-slider" class="text-sm font-semibold text-slate-300">Execution Reliability Rate:</label>
+              <span id="reliability-display" class="font-serif text-xl font-bold text-emerald-400">95% (5% Failure)</span>
+            </div>
+            <input type="range" id="reliability-slider" min="85" max="100" step="1" value="95" class="w-full accent-emerald-500 bg-slate-800 rounded-lg h-2 cursor-pointer">
+            <div class="flex justify-between text-[11px] text-slate-500 mt-2">
+              <span>85% Stress</span>
+              <span>95% Employee Jockey Baseline</span>
+              <span>100% Optimal</span>
+            </div>
+          </div>
+
+          <div class="space-y-3.5 pt-6 border-t border-slate-800 text-sm">
+            <div class="flex justify-between">
+              <span class="text-slate-400">Your Profit &amp; Equity Interest:</span>
+              <span id="equity-display" class="font-bold text-white">7.5%</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Trainer Sweat Equity (RM 0 Cash):</span>
+              <span class="font-bold text-gold-400">25.0% (License &amp; 25% OpEx Off)</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Discounted Monthly OpEx:</span>
+              <span class="font-bold text-emerald-400">RM 5,300/horse (RM 53k/mo)</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">12-Month Cumulative Payout:</span>
+              <span id="out-12mo-total" class="font-bold text-emerald-400">RM 142,313</span>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-800">
+            <a href="#portal" class="w-full py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider text-obsidian bg-gradient-to-r from-gold-400 to-gold-500 hover:opacity-95 transition-all shadow-lg shadow-gold-500/20 flex items-center justify-center gap-2">
+              <span>Reserve Selected Share Allocation</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Live Output Dashboard -->
+        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- Metric 1 -->
+          <div class="glass-card rounded-2xl p-6 border border-gold-500/20">
+            <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Initial Cash Investment</span>
+            <span id="out-capital" class="font-serif text-3xl font-bold text-white">RM 114,300</span>
+            <span id="out-capital-sub" class="text-xs text-slate-400 mt-2 block">RM 114,300 per 10% share unit</span>
+          </div>
+
+          <!-- Metric 2 -->
+          <div class="glass-card rounded-2xl p-6 border border-gold-500/20">
+            <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Your Monthly Cash Dividend</span>
+            <span id="out-monthly" class="font-serif text-3xl font-bold text-gold-400">RM 12,853</span>
+            <span class="text-xs text-emerald-400 mt-2 block font-medium">Pro-rata share of net profit pool</span>
+          </div>
+
+          <!-- Metric 3 -->
+          <div class="glass-card rounded-2xl p-6 border border-gold-500/20">
+            <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Capital Payback Period</span>
+            <span id="out-payback" class="font-serif text-3xl font-bold text-emerald-400">8.9 Months</span>
+            <span class="text-xs text-slate-400 mt-2 block">Full initial capital recovery in Year 1</span>
+          </div>
+
+          <!-- Metric 4 -->
+          <div class="glass-card rounded-2xl p-6 border border-gold-500/20">
+            <span class="text-xs uppercase tracking-wider text-slate-400 block mb-1">Annualized Cash Yield (ROI)</span>
+            <span id="out-roi" class="font-serif text-3xl font-bold text-gold-400">134.9%</span>
+            <span class="text-xs text-slate-400 mt-2 block">Excluding bloodstock asset resale equity</span>
+          </div>
+
+          <!-- 12-Month Cumulative Cash Flow Chart -->
+          <div class="sm:col-span-2 glass-card rounded-2xl p-6 border border-gold-500/30">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+              <div>
+                <h4 class="font-serif text-lg font-bold text-white">12-Month Cumulative Cash Flow Projection</h4>
+                <p class="text-xs text-slate-400">Gold bars indicate cumulative payout reaching initial subscription breakeven</p>
+              </div>
+              <span id="chart-breakeven-badge" class="px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-400 text-xs font-bold">
+                Full Payback: Month 10
+              </span>
+            </div>
+            <div id="cashflow-bars" class="grid grid-cols-12 gap-2 items-end h-36 pt-4 pb-2 border-b border-slate-800">
+              <!-- Populated dynamically by JS -->
+            </div>
+            <div class="grid grid-cols-12 gap-2 text-center text-[10px] text-slate-500 mt-2 font-medium">
+              <span>M1</span><span>M2</span><span>M3</span><span>M4</span><span>M5</span><span>M6</span>
+              <span>M7</span><span>M8</span><span>M9</span><span>M10</span><span>M11</span><span>M12</span>
+            </div>
+          </div>
+
+          <!-- Waterfall Summary Box -->
+          <div class="sm:col-span-2 glass-card rounded-2xl p-6 border border-gold-500/30">
+            <h4 class="font-serif text-lg font-bold text-white mb-4">Monthly Fleet Waterfall &amp; Trainer Cash Inflow</h4>
+            <div class="space-y-2.5 text-sm">
+              <div class="flex justify-between pb-2 border-b border-slate-800">
+                <span class="text-slate-300">Monthly Gross Fleet Earnings:</span>
+                <span id="out-gross-fleet" class="font-bold text-white">RM 211,125</span>
+              </div>
+              <div class="flex justify-between pb-2 border-b border-slate-800">
+                <span id="out-opex-line-label" class="text-slate-300">Less: Discounted Stable OpEx (10 @ RM 3,975):</span>
+                <span id="out-opex-val" class="font-bold text-rose-400">(RM 39,750)</span>
+              </div>
+              <div id="out-license-row" class="hidden flex justify-between pb-2 border-b border-slate-800">
+                <span class="text-slate-300">Less: 10% Bookie / License Fee (Paid to Trainer at RM 0 Cost):</span>
+                <span id="out-license-val" class="font-bold text-amber-400">(RM 21,113)</span>
+              </div>
+              <div class="flex justify-between pb-2 border-b border-slate-800">
+                <span class="text-slate-300">Net Monthly Operating Profit Pool:</span>
+                <span id="out-net-fleet" class="font-bold text-white">RM 171,375</span>
+              </div>
+              <div class="flex justify-between pb-2 border-b border-slate-800">
+                <span class="text-slate-300">Trainer 25% Equity Profit Share:</span>
+                <span id="out-trainer-pool" class="font-bold text-gold-400">RM 42,844 / month</span>
+              </div>
+              <div class="flex justify-between pt-1">
+                <span class="font-bold text-emerald-400">Per 10% Share Unit Monthly Profit:</span>
+                <span id="out-pool" class="font-bold text-emerald-400">RM 12,853 / month</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPLETE OPTION 1 VS OPTION 2 & MONTHLY FORECAST TABLE -->
+  <section id="forecast" class="py-24 bg-[#0b0f19]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-400 block mb-3">04 / Option 1 vs. Option 2 &amp; Forecast</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-white mb-4">Deal Comparison &amp; <span class="gold-gradient-text">Realistic Forecast</span></h2>
+        <p class="text-slate-300 text-base leading-relaxed">
+          Anchored on RM 211,125 realistic monthly gross revenue (13 &#34;EAT&#34; runs, ~1.25 fleet wins/mo, starter incentives &amp; stakes) and RM 5,300/horse/month pre-discount OpEx.
+        </p>
+      </div>
+
+      <div class="glass-card rounded-3xl overflow-hidden border border-amber-500/20 shadow-2xl overflow-x-auto mb-10">
+        <table class="w-full text-left border-collapse min-w-[700px]">
+          <thead>
+            <tr class="bg-amber-500/10 border-b border-amber-500/20 text-xs font-bold text-amber-400 uppercase tracking-wider">
+              <th class="p-5">Comparison Metric</th>
+              <th class="p-5 text-right">Option 1: Sweat Equity</th>
+              <th class="p-5 text-right">Option 2: Commercial Buy-In</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800 text-sm text-slate-300">
+            <tr>
+              <td class="p-5 font-bold text-white">Trainer Upfront Cash / Investor Cash</td>
+              <td class="p-5 text-right">Trainer: RM 0 • Investors: RM 1,143,000 (10 units)</td>
+              <td class="p-5 text-right">Trainer: RM 285,750 (2.5 units) • Investors: RM 857,250 (7.5 units)</td>
+            </tr>
+            <tr>
+              <td class="p-5 font-bold text-white">Training / OpEx Deducted (10 Horses)</td>
+              <td class="p-5 text-right">(RM 39,750.00) (25% off RM 53,000 = RM 3,975/horse)</td>
+              <td class="p-5 text-right">(RM 53,000.00) (Full RM 5,300/horse rate)</td>
+            </tr>
+            <tr>
+              <td class="p-5 font-bold text-white">10% Bookie / License Fee (to Trainer at RM 0 Cost)</td>
+              <td class="p-5 text-right">RM 0.00 (Included in 25% equity split)</td>
+              <td class="p-5 text-right">(RM 21,112.50) (Paid directly to Trainer)</td>
+            </tr>
+            <tr class="bg-amber-500/5 font-bold">
+              <td class="p-5 text-amber-400">Net Monthly Profit Pool</td>
+              <td class="p-5 text-right text-amber-400">RM 171,375.00 / mo</td>
+              <td class="p-5 text-right text-amber-400">RM 137,012.50 / mo</td>
+            </tr>
+            <tr>
+              <td class="p-5 font-bold text-white">Trainer 25% Equity Profit / Total Cash Inflow</td>
+              <td class="p-5 text-right text-gold-400 font-bold">RM 42,843.75 Profit • RM 82,593.75 Total Inflow</td>
+              <td class="p-5 text-right text-gold-400 font-bold">RM 34,253.13 Profit • RM 108,365.63 Total Inflow</td>
+            </tr>
+            <tr class="bg-emerald-950/40 border-t-2 border-emerald-500/50 font-bold">
+              <td class="p-5 text-emerald-400">Per 10% Share Unit Return &amp; Payback (RM 114,300)</td>
+              <td class="p-5 text-right text-emerald-400">RM 12,853.13 / mo (~8.9 Months)</td>
+              <td class="p-5 text-right text-emerald-400">RM 13,701.25 / mo (~8.3 Months)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass-card rounded-3xl overflow-hidden border border-amber-500/20 shadow-2xl overflow-x-auto">
+        <table class="w-full text-left border-collapse min-w-[700px]">
+          <thead>
+            <tr class="bg-amber-500/10 border-b border-amber-500/20 text-xs font-bold text-amber-400 uppercase tracking-wider">
+              <th class="p-5">Realistic Monthly Revenue Line Item</th>
+              <th class="p-5">Realistic Monthly Activity Basis</th>
+              <th class="p-5">Calculation Breakdown (MYR)</th>
+              <th class="p-5 text-right">Monthly Amount</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800 text-sm text-slate-300">
+            <tr>
+              <td class="p-5 font-bold text-white">Core &#34;EAT&#34; Liquidity Earnings <span class="block text-xs font-normal text-slate-400">Primary Monthly Cash-Flow Engine</span></td>
+              <td class="p-5">13 &#34;EAT&#34; runs / month <br>(7 Tier 1, 4 Tier 2, 2 Tier 3)</td>
+              <td class="p-5 text-xs text-slate-400">• Tier 1: 7 × RM 8,600 = RM 60,200<br>• Tier 2: 4 × RM 12,900 = RM 51,600<br>• Tier 3: 2 × RM 21,500 = RM 43,000</td>
+              <td class="p-5 text-right font-bold text-white">RM 154,800</td>
+            </tr>
+            <tr>
+              <td class="p-5 font-bold text-white">Fleet Win Payouts (Bonus Upside) <span class="block text-xs font-normal text-slate-400">1–2 Wins per Horse Annually</span></td>
+              <td class="p-5">~1.25 wins / month <br>(~15 wins/year across 10 horses)</td>
+              <td class="p-5 text-xs text-slate-400">1.25 wins × RM 26,500 blended net win payout across tiers</td>
+              <td class="p-5 text-right font-bold text-white">RM 33,125</td>
+            </tr>
+            <tr>
+              <td class="p-5 font-bold text-white">Starter Incentive Subsidies <span class="block text-xs font-normal text-slate-400">Non-Bottom-2 Finishes</span></td>
+              <td class="p-5">~14 qualifying runs / mo <br>(out of 16 fleet starts)</td>
+              <td class="p-5 text-xs text-slate-400">14 runs × RM 800 incentive (offsets ~90% of RM 12,500/mo club admin fees)</td>
+              <td class="p-5 text-right font-bold text-white">RM 11,200</td>
+            </tr>
+            <tr>
+              <td class="p-5 font-bold text-white">Official Stakemoney / Prizemoney <span class="block text-xs font-normal text-slate-400">All 10 Syndicate Runners</span></td>
+              <td class="p-5">16 starts / month <br>(2nd–5th placings &amp; stakes)</td>
+              <td class="p-5 text-xs text-slate-400">Conservative Selangor &amp; Perak turf club prizemoney on placed runs</td>
+              <td class="p-5 text-right font-bold text-white">RM 12,000</td>
+            </tr>
+            <tr class="bg-amber-500/5 font-bold">
+              <td class="p-5 text-amber-400">Realistic Total Monthly Gross Revenue</td>
+              <td class="p-5 text-slate-200">16 runs / mo (13 Eats, ~1.25 Wins)</td>
+              <td class="p-5 text-xs text-slate-400">Combined &#34;EAT&#34; retention, realistic wins, incentives &amp; stakes</td>
+              <td class="p-5 text-right text-amber-400 text-lg">RM 211,125</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVESTOR TERM SHEET & GOVERNANCE -->
+  <section id="governance" class="py-24 bg-[#0d1218] border-t border-gold-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-400 block mb-3">05 / Legal &amp; Governance</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-white mb-4">Investor Term Sheet &amp; <span class="gold-gradient-text">Governance</span></h2>
+        <p class="text-slate-300 text-base leading-relaxed">
+          Clear alignment: external investors fund 100% of capital while the Trainer contributes RM 0 cash and earns 25% equity via license access and training discounts.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Term 1 -->
+        <div class="glass-card rounded-2xl p-8 border border-gold-500/20">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 font-bold">01</div>
+            <h3 class="font-serif text-xl font-bold text-white">100% Investor Capitalization</h3>
+          </div>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Total syndicate raise of <strong class="text-white">RM 1,118,000 – RM 1,168,000</strong> (Midpoint: <strong class="text-gold-400">RM 1,143,000</strong>) is funded 100% by external investors across <strong class="text-emerald-400">10 Syndicate Shares</strong> priced at RM 111,800 – RM 116,800 per share (each carrying a 7.5% profit &amp; equity interest).
+          </p>
+        </div>
+
+        <!-- Term 2 -->
+        <div class="glass-card rounded-2xl p-8 border border-gold-500/20">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 font-bold">02</div>
+            <h3 class="font-serif text-xl font-bold text-white">Trainer 25% Sweat Equity &amp; Authority</h3>
+          </div>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            The Stable Trainer contributes <strong class="text-white">RM 0 cash</strong> and earns a <strong class="text-gold-400">25% profit &amp; equity stake</strong> by granting a <strong class="text-white">25% training bill discount</strong> (fixing upkeep at RM 5,300/horse/month) and deploying their racing/bookie license and employee jockeys. The Trainer retains full operational control.
+          </p>
+        </div>
+
+        <!-- Term 3 -->
+        <div class="glass-card rounded-2xl p-8 border border-gold-500/20">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 font-bold">03</div>
+            <h3 class="font-serif text-xl font-bold text-white">Pro-Rata Distributions &amp; Payback</h3>
+          </div>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Realistic net profits (<strong class="text-white">RM 158,125/month</strong>) are distributed <strong class="text-emerald-400">75% to Investors (RM 118,594/month, or RM 11,859 per share)</strong> and <strong class="text-gold-400">25% to the Trainer (RM 39,531/month)</strong>, subject to maintaining a rolling 2-month reserve (RM 106,000). Realistic payback is <strong class="text-emerald-400">~9.6 months</strong>.
+          </p>
+        </div>
+
+        <!-- Term 4 -->
+        <div class="glass-card rounded-2xl p-8 border border-gold-500/20">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 font-bold">04</div>
+            <h3 class="font-serif text-xl font-bold text-white">Asset Ownership &amp; Governance</h3>
+          </div>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            The 10-horse string is held pro-rata (75% Investors / 25% Trainer). Monthly statements detail horse soundness, race entries, and financial reconciliations. Major bloodstock disposals or structural changes require <strong class="text-white">&gt;50%</strong> shareholder approval.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONFIDENTIAL SHARE RESERVATION PORTAL -->
+  <section id="portal" class="py-24 bg-[#0B0E11] relative overflow-hidden">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gold-500/5 rounded-full blur-[150px] pointer-events-none"></div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="glass-card rounded-3xl p-8 sm:p-12 border border-gold-500/30 shadow-2xl">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-400 block mb-3">Confidential Offering • 10 Investor Shares Available</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-3">Request Prospectus &amp; <span class="gold-gradient-text">Reserve Shares</span></h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            10 Investor Shares (RM 114,300/share midpoint; 7.5% profit &amp; equity interest per share) are open for subscription. Complete the form below to receive the private prospectus and subscription agreement.
+          </p>
+        </div>
+
+        <form id="reservation-form" class="space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="investor-name" class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Full Legal Name / Entity</label>
+              <input type="text" id="investor-name" required class="w-full bg-black/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition-colors" placeholder="Dato' / Tan Sri / Institutional Fund">
+            </div>
+            <div>
+              <label for="investor-email" class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Secure Email Address</label>
+              <input type="email" id="investor-email" required class="w-full bg-black/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition-colors" placeholder="investor@domain.com">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="investor-phone" class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Contact Telephone</label>
+              <input type="tel" id="investor-phone" required class="w-full bg-black/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition-colors" placeholder="+60 12-345 6789">
+            </div>
+            <div>
+              <label for="share-allocation-select" class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Requested Share Allocation (10 Shares Total)</label>
+              <select id="share-allocation-select" class="w-full bg-black/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-gold-500 focus:outline-none transition-colors">
+                <option value="0.5">0.5 Share (RM 57,150 | 3.75% Interest)</option>
+                <option value="1" selected>1.0 Share (RM 114,300 | 7.5% Interest)</option>
+                <option value="2">2.0 Shares (RM 228,600 | 15.0% Interest)</option>
+                <option value="5">5.0 Shares (RM 571,500 | 37.5% Interest)</option>
+                <option value="10">10.0 Shares (RM 1,143,000 | Full 75.0% Investor Pool)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="investor-notes" class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Additional Notes / Inquiry Details (Optional)</label>
+            <textarea id="investor-notes" rows="3" class="w-full bg-black/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition-colors" placeholder="Specific questions regarding stable management, turf club scheduling, or wire instructions..."></textarea>
+          </div>
+
+          <div class="pt-4">
+            <button type="submit" class="w-full py-4 rounded-xl font-bold text-sm tracking-wider uppercase text-obsidian bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 transition-all shadow-xl shadow-amber-500/20 flex items-center justify-center gap-2">
+              <span>Submit Confidential Reservation Request</span>
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </form>
+
+        <!-- Success Modal / Alert Box -->
+        <div id="success-modal" class="hidden mt-6 p-6 rounded-2xl bg-emerald-950/80 border border-emerald-500 text-center">
+          <i data-lucide="check-circle-2" class="w-12 h-12 text-emerald-400 mx-auto mb-3"></i>
+          <h3 class="font-serif text-xl font-bold text-white mb-2">Reservation Request Received</h3>
+          <p class="text-sm text-emerald-200">
+            Thank you. Our syndicate managing director will contact you securely within 2 hours with the private prospectus and subscription agreement.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-12 border-t border-slate-800 bg-[#070a12] text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-amber-500 flex items-center justify-center text-obsidian font-bold">
+          <i data-lucide="shield" class="w-4 h-4"></i>
+        </div>
+        <div>
+          <span class="font-bold text-white tracking-wider uppercase block">Malaysian Bloodstock Partners</span>
+          <span class="text-[11px] text-slate-500">Selangor • Perak Turf Clubs</span>
+        </div>
+      </div>
+
+      <div class="max-w-md text-slate-500">
+        Confidential Memorandum. Thoroughbred racing and liquidity operations involve financial risk. Projections are based on realistic operational baselines and do not guarantee future returns.
+      </div>
+
+      <div>
+        <p class="text-slate-400 font-medium">© 2026 Malaysian Bloodstock Syndicate.</p>
+        <p class="text-[10px] text-slate-600 mt-1">All Rights Reserved. Strictly Private &amp; Confidential.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lucide Icons Init & Interactive Simulator JS -->
+  <script>
+    lucide.createIcons();
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Interactive ROI Simulator Logic
+    const dealOptionSelect = document.getElementById('deal-option-select');
+    const dealOptionDesc = document.getElementById('deal-option-desc');
+    const shareSlider = document.getElementById('share-slider');
+    const scenarioSelect = document.getElementById('scenario-select');
+    const reliabilitySlider = document.getElementById('reliability-slider');
+    const shareCountDisplay = document.getElementById('share-count-display');
+    const reliabilityDisplay = document.getElementById('reliability-display');
+    const equityDisplay = document.getElementById('equity-display');
+    const outCapital = document.getElementById('out-capital');
+    const outCapitalSub = document.getElementById('out-capital-sub');
+    const outMonthly = document.getElementById('out-monthly');
+    const outPayback = document.getElementById('out-payback');
+    const outRoi = document.getElementById('out-roi');
+    const out12MoTotal = document.getElementById('out-12mo-total');
+    const outTrainerTotal = document.getElementById('out-trainer-total');
+    const outOpexLabel = document.getElementById('out-opex-label');
+    const outGrossFleet = document.getElementById('out-gross-fleet');
+    const outOpexLineLabel = document.getElementById('out-opex-line-label');
+    const outOpexVal = document.getElementById('out-opex-val');
+    const outLicenseRow = document.getElementById('out-license-row');
+    const outLicenseVal = document.getElementById('out-license-val');
+    const outNetFleet = document.getElementById('out-net-fleet');
+    const outTrainerPool = document.getElementById('out-trainer-pool');
+    const outPool = document.getElementById('out-pool');
+    const cashflowBars = document.getElementById('cashflow-bars');
+    const chartBreakevenBadge = document.getElementById('chart-breakeven-badge');
+    const shareAllocationSelect = document.getElementById('share-allocation-select');
+
+    const SCENARIO_GROSS = {
+      realistic: 211125,     // ~1.25 wins/mo + 13 Eats + incentives + stakes
+      conservative: 201000,  // 1.0 win/mo + 13 Eats + incentives + stakes
+      upside: 270000,        // 3.0 wins/mo + 13 Eats + incentives + stakes
+      stress: 105562.5       // 50% revenue cut stress test on realistic baseline
+    };
+
+    function updateSimulator() {
+      const optionKey = dealOptionSelect ? dealOptionSelect.value : 'option1';
+      const units = parseFloat(shareSlider.value);
+      const scenarioKey = scenarioSelect ? scenarioSelect.value : 'realistic';
+      const reliability = parseInt(reliabilitySlider.value, 10);
+      const failureRate = 100 - reliability;
+
+      shareCountDisplay.textContent = units.toFixed(1) + (units === 1 ? ' Unit' : ' Units');
+      reliabilityDisplay.textContent = `${reliability}% (${failureRate}% Failure)`;
+      // Each 10% share unit represents 10% of the net profit pool
+      equityDisplay.textContent = (units * 10).toFixed(1) + '%';
+
+      const unitPriceMid = 114300;
+      const userCap = unitPriceMid * units;
+
+      const baseGross = SCENARIO_GROSS[scenarioKey] || 211125;
+      const adjustedGross = baseGross * (reliability / 95);
+
+      const isOption2 = optionKey === 'option2';
+      const opexDeducted = isOption2 ? 53000 : 39750;
+      const licenseFee = isOption2 ? (adjustedGross * 0.10) : 0;
+      const netOperatingProfit = Math.max(0, adjustedGross - opexDeducted - licenseFee);
+
+      const trainerEquityProfit = netOperatingProfit * 0.25;
+      const trainerTotalCashInflow = opexDeducted + licenseFee + trainerEquityProfit;
+      const perUnitMonthly = netOperatingProfit / 10;
+      const userMonthly = perUnitMonthly * units;
+      const user12Mo = userMonthly * 12;
+
+      const paybackMonths = userMonthly > 0 ? (userCap / userMonthly) : 0;
+      const annualRoi = userCap > 0 ? ((user12Mo / userCap) * 100) : 0;
+
+      if (dealOptionDesc) {
+        dealOptionDesc.textContent = isOption2
+          ? 'Trainer pays RM 285,750 (2.5 units); investors fund RM 857,250 (7.5 units). Full RM 53,000/mo OpEx + 10% license fee paid to Trainer.'
+          : 'Investors fund 100% (10 units @ RM 114,300); Trainer RM 0 cash, 25% OpEx discount to RM 39,750/mo (RM 3,975/horse).';
+      }
+
+      if (outCapitalSub) {
+        outCapitalSub.textContent = isOption2
+          ? 'RM 114,300 per 10% unit (Trainer 2.5 units = RM 285,750)'
+          : 'RM 114,300 per 10% unit (100% Investor Funded)';
+      }
+
+      if (outOpexLabel) {
+        outOpexLabel.textContent = isOption2
+          ? 'RM 53,000/mo (Full RM 5,300/horse)'
+          : 'RM 39,750/mo (25% Off • RM 3,975/horse)';
+      }
+
+      if (outOpexLineLabel) {
+        outOpexLineLabel.textContent = isOption2
+          ? 'Less: Full Stable OpEx (10 @ RM 5,300):'
+          : 'Less: Discounted Stable OpEx (10 @ RM 3,975):';
+      }
+
+      if (outOpexVal) {
+        outOpexVal.textContent = `(RM ${Math.round(opexDeducted).toLocaleString()})`;
+      }
+
+      if (outLicenseRow && outLicenseVal) {
+        if (isOption2) {
+          outLicenseRow.classList.remove('hidden');
+          outLicenseVal.textContent = `(RM ${Math.round(licenseFee).toLocaleString()})`;
+        } else {
+          outLicenseRow.classList.add('hidden');
+        }
+      }
+
+      outCapital.textContent = 'RM ' + Math.round(userCap).toLocaleString();
+      outMonthly.textContent = 'RM ' + Math.round(userMonthly).toLocaleString();
+      out12MoTotal.textContent = 'RM ' + Math.round(user12Mo).toLocaleString();
+      outPayback.textContent = paybackMonths > 0 ? paybackMonths.toFixed(1) + ' Months' : 'N/A';
+      outRoi.textContent = annualRoi.toFixed(1) + '%';
+
+      outGrossFleet.textContent = 'RM ' + Math.round(adjustedGross).toLocaleString();
+      outNetFleet.textContent = 'RM ' + Math.round(netOperatingProfit).toLocaleString();
+      outTrainerPool.textContent = 'RM ' + Math.round(trainerEquityProfit).toLocaleString() + ' / month';
+      outTrainerTotal.textContent = 'RM ' + Math.round(trainerTotalCashInflow).toLocaleString() + ' / mo';
+      outPool.textContent = 'RM ' + Math.round(perUnitMonthly).toLocaleString() + ' / month';
+
+      // Render 12-Month Cumulative Cash Flow Bars
+      if (cashflowBars) {
+        cashflowBars.innerHTML = '';
+        let breakevenMonth = null;
+        for (let m = 1; m <= 12; m++) {
+          const cumCash = userMonthly * m;
+          const heightPct = user12Mo > 0 ? Math.max(8, Math.round((cumCash / user12Mo) * 100)) : 8;
+          const isBreakevenOrAbove = cumCash >= userCap;
+          if (isBreakevenOrAbove && breakevenMonth === null) {
+            breakevenMonth = m;
+          }
+          const bar = document.createElement('div');
+          bar.className = `w-full rounded-t-md transition-all duration-300 relative group cursor-pointer ${
+            isBreakevenOrAbove
+              ? 'bg-gradient-to-t from-gold-600 to-gold-400 shadow-sm shadow-gold-500/30'
+              : 'bg-gradient-to-t from-emerald-700 to-emerald-400'
+          }`;
+          bar.style.height = heightPct + '%';
+          bar.title = `Month ${m}: RM ${Math.round(cumCash).toLocaleString()} cumulative`;
+          cashflowBars.appendChild(bar);
+        }
+        if (chartBreakevenBadge) {
+          chartBreakevenBadge.textContent = breakevenMonth
+            ? `Full Payback: Month ${breakevenMonth}`
+            : `Payback: ${paybackMonths.toFixed(1)} Months`;
+        }
+      }
+
+      // Sync dropdown to closest preset
+      if (shareAllocationSelect) {
+        const presets = [0.5, 1, 2, 5, 10];
+        const closest = presets.reduce((prev, curr) =>
+          Math.abs(curr - units) < Math.abs(prev - units) ? curr : prev
+        );
+        shareAllocationSelect.value = String(closest);
+      }
+    }
+
+    if (dealOptionSelect) dealOptionSelect.addEventListener('change', updateSimulator);
+    shareSlider.addEventListener('input', updateSimulator);
+    if (scenarioSelect) scenarioSelect.addEventListener('change', updateSimulator);
+    reliabilitySlider.addEventListener('input', updateSimulator);
+
+    if (shareAllocationSelect) {
+      shareAllocationSelect.addEventListener('change', (e) => {
+        shareSlider.value = e.target.value;
+        updateSimulator();
+      });
+    }
+
+    // Form Submission Handler
+    const reservationForm = document.getElementById('reservation-form');
+    const successModal = document.getElementById('success-modal');
+    if (reservationForm && successModal) {
+      reservationForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        reservationForm.classList.add('hidden');
+        successModal.classList.remove('hidden');
+      });
+    }
+
+    // Initialize simulator on load
+    updateSimulator();
+  </script>
+</body>
+</html>
